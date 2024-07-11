@@ -1,4 +1,39 @@
-img{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaques{
+    margin: 40px;
+}
+.destaques h2{
+    margin-bottom: 10px;
+}
+.destaques img{
     width: 150px;
+    height: 225px;
+}
+.destaques li{
+    list-style: none;
+}
+
+.destaques ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
     
 }
+
+.destaques li{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
