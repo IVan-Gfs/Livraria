@@ -5,15 +5,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.destaques{
-    margin: 40px;
+.destaques{     
+    width: 66%;
+    margin: auto;
+    margin-top: 100px ;
+    background-color:azure;
+    padding: 20px;
+    border-radius: 5px;
+   
+    
 }
 .destaques h2{
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    text-decoration: underline;
 }
 .destaques img{
     width: 150px;
     height: 225px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    border: 1px solid #333;
 }
 .destaques li{
     list-style: none;
@@ -22,8 +33,11 @@
 .destaques ul{
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    align-items: center;
+    gap: 50px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+    transform-origin: center;
     
 }
 
@@ -36,4 +50,11 @@
     
 }
 
+.destaques img:hover{
+    transform: scale(1.05);
+}
 
+
+#rodape{
+    background-color: #222;
+}   
