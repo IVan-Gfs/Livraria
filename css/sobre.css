@@ -1,0 +1,19 @@
+
+body{
+    height: 120vh;
+}
+
+.sobre div{
+    margin: auto;
+    margin-top: 2%;
+    width: 50vw;
+    padding: 2%;
+    background-color: aliceblue;
+}
+
+.sobre ol{
+    margin: 2% 0% 5% 5%;    
+}
+.sobre p{
+    margin: 2%
+}

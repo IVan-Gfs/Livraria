@@ -50,9 +50,10 @@ header h1{
 
 #rodape{
     width: 100%;
-    height: 20%;
-    position: fixed;
-    bottom: 0%;
+    height: 15%;
+    position: absolute;
+    top: 120%;
+    background-color: #222;
     
 }
 #rodape .list-item a {
